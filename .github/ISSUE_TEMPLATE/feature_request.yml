@@ -1,0 +1,45 @@
+name: Пропозиція
+description: Нова можливість або покращення
+title: "Пропозиція: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Коротко напишіть, чого не вистачає і як це має працювати.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Перед надсиланням
+      options:
+        - label: Серед наявних issues такої пропозиції немає
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Навіщо це потрібно
+      description: Яку задачу закриває пропозиція і для кого.
+      placeholder: Доводиться повторювати одну й ту саму дію вручну.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Як це має працювати
+      description: Очікувана поведінка, без деталей реалізації.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативи
+      description: Якщо розглядали інший варіант, опишіть його.
+    validations:
+      required: false
+  - type: upload
+    id: mockups
+    attributes:
+      label: Макети
+      description: Скріншоти або ескізи, якщо є.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Telegram
+    url: https://t.me/tony_kobs
+    about: Написати команді BurCob напряму.
+  - name: Канбан BurCob
+    url: https://kanban.burcob.online
+    about: Відкрити продукт і робочі дошки.
