@@ -1,0 +1,57 @@
+name: Помилка
+description: Щось працює не так
+title: "Помилка: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишіть помилку коротко.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Перед надсиланням
+      options:
+        - label: Серед наявних issues такої помилки немає
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Що сталося
+      description: Що пішло не так і що мало статися натомість.
+      placeholder: Після збереження дані зникають зі сторінки.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Кроки відтворення
+      description: Пронумеруйте дії, щоб ми могли повторити помилку.
+      placeholder: |
+        1. Відкрити сторінку
+        2. Виконати дію
+        3. Побачити помилку
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Середовище
+      description: Браузер, система, адреса сторінки або версія.
+      placeholder: Chrome 131, macOS, адреса сторінки
+    validations:
+      required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Скріншоти
+      description: Додайте зображення, якщо воно пояснює помилку.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.webp"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Додатково
+      description: Логи, текст з консолі чи інший контекст.
+    validations:
+      required: false
