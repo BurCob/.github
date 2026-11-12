@@ -1,52 +1,71 @@
 # BurCob
 
-Tools for teamwork, built with care.
+Tools and websites, built with care.
 
-[![kanban.burcob.online](https://img.shields.io/badge/site-kanban.burcob.online-3d4f5f)](https://kanban.burcob.online)
+**Будуємо інструменти, які забирають рутину і лишають людям час.**
 
-Ми познайомилися на [GoIT](https://goit.global/), навчалися разом і зрозуміли: якщо об'єднати сили, можемо зробити майже все. Так з'явився BurCob. Робимо інструменти, які трохи спрощують роботу й навчання, і ведемо їх від ідеї до живого сайту.
+Ми — невелика українська команда. Робимо інструменти й сайти з увагою: те, що люди повторюють руками, перетворюємо на автоматизацію. Віддаємо швидко і залишаємося людьми, з якими легко поговорити про задачу.
 
-## Канбан-дошка
+## Послуги
 
-Онлайн-дошка для команд: [kanban.burcob.online](https://kanban.burcob.online).
+- 🖥️ **Верстка та розробка сайтів** — адаптивні й швидкі
+- ⚙️ **Автоматизація бізнес-процесів** — менше ручних кроків щодня
+- 🗂️ **Адмін-панелі** до вже наявних сайтів
+- 🔌 **Інтеграції** — оплати, пошта, API
+- 🚀 **Підтримка і деплой** — щоб усе працювало після запуску
 
-- Робочі простори та дошки
+## Наш продукт
+
+**[Kanban-дошка](https://kanban.burcob.online)** — спокійне місце, де невелика команда бачить усю роботу.
+
+- Робочі простори
 - Вигляди: Дошка, Календар, Список
-- Фільтри й картки завдань
-- Учасники з ролями та запрошеннями
-- Трекер часу вимкнений, доки його не увімкнуть у налаштуваннях
+- Фільтри
+- Ролі та запрошення
+- Трекер часу — лише якщо його увімкнути в налаштуваннях
 - Особисті API-токени
 - Зручна верстка на телефоні
 - Тарифи Free і платні, оплата через Monobank
 
-## Інші наші проєкти
-
-- [nmt.in.ua](https://nmt.in.ua) — підготовка до НМТ з математики: кабінет учня, діагностичні тести, кабінет вчителя
-- [Relax Map](https://relaxmap-front-final.vercel.app) — місця для відпочинку в Україні: каталог, відгуки, профілі мандрівників
-- [Моя парта](https://moya-parta.vercel.app) — цифровий клас для 1–4 класів і вчителя
-- [Беремо-Веземо](https://beremo-vezemo.vercel.app) і [Hexa Diamonds](https://tony-kobs.github.io/STPP-395/) — сайти для клієнтів
-
 ## Стек
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+Ось на чому працює [Kanban-дошка](https://kanban.burcob.online).
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-5B5FEF?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-334155?style=flat-square&logo=lucide&logoColor=white)
+![Sonner](https://img.shields.io/badge/Sonner-FBBF24?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+
+**Backend**
+
+![Next.js](https://img.shields.io/badge/Next.js-5B5FEF?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Auth.js](https://img.shields.io/badge/Auth.js-4F46E5?style=flat-square)
+
+**DevOps / інструменти**
+
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Turbopack](https://img.shields.io/badge/Turbopack-7C3AED?style=flat-square)
 
 ## Команда
 
-- [Антон Кобись (@tony-kobs)](https://github.com/tony-kobs) — фулстек, ведення продукту · [LinkedIn](https://www.linkedin.com/in/antony-kobys/)
-- [Валентин Бурий (@groteskzp)](https://github.com/groteskzp) — розробка, мережі й інфраструктура · [LinkedIn](https://www.linkedin.com/in/valentyn-buryi/)
+Команда виросла з навчання в GoIT. Тепер ми робимо свої продукти разом — і далі вчимося одне в одного.
 
-## Контакт
+- [Антон Кобись (@tony-kobs)](https://github.com/tony-kobs)
+- [Валентин (@groteskzp)](https://github.com/groteskzp)
 
-[kanban.burcob.online](https://kanban.burcob.online)
+## Зв’язок
 
----
+- Сайт — [kanban.burcob.online](https://kanban.burcob.online)
+- Telegram — [t.me/tony_kobs](https://t.me/tony_kobs)
 
-**In English.** We met at GoIT, studied together, and realized that by joining forces we can build almost anything. BurCob makes tools for teamwork, built with care: our main product is [BurCob Kanban](https://kanban.burcob.online), and we also shipped [nmt.in.ua](https://nmt.in.ua) and [Relax Map](https://relaxmap-front-final.vercel.app). Ukraine, remote.
+Напишіть нам — обговоримо ваш проєкт.
+
+Хай рутина працює сама, а у вас лишається час на справу.
